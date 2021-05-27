@@ -11,6 +11,7 @@ import { HomeComponent } from './navegacao/home/home.component';
 import { FooterComponent } from './navegacao/footer/footer.component';
 import { SobreComponent } from './institucional/sobre/sobre.component';
 import { ContatoComponent } from './institucional/contato/contato.component';
+import { DataBindingComponent } from './demos/data-binding/data-binding.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ContatoComponent } from './institucional/contato/contato.component';
     HomeComponent,
     FooterComponent,
     SobreComponent,
-    ContatoComponent
+    ContatoComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
