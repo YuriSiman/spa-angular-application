@@ -13,5 +13,19 @@ export class DataBindingComponent implements OnInit {
   }
 
   public contadorClique: number = 0;
+  public urlImagem: string = "/assets/produtividade.jpg"; 
+  public nome: string = "";
+
+  adicionarClique(){
+    this.contadorClique++;
+  }
+
+  zerarContador(){
+    this.contadorClique = 0;
+  }
+
+  // KeyUp(event: any){
+  //   this.nome = event.target.value;
+  // }
 
 }
