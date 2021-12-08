@@ -1,4 +1,5 @@
 <div class="container main-container">
+
     <h3>Interpolation</h3>
     <!-- <p>O número de cliques é: {{contadorClique}}</p> -->
 
@@ -15,11 +16,13 @@
     <button class="btn btn-info" [disabled] = 'contadorClique >= 10'>Info</button>
     <br><br>
     <img [src]="urlImagem" height="50px" width="50px">
+
     <br><br>
 
     <h3>Event Binding</h3>
     <button class="btn btn-warning" (click)='adicionarClique()'>Clique aqui</button>&nbsp;
     <button class="btn btn-danger" (click)='zerarContador()' [disabled]='contadorClique < 10'>Zerar Contador</button>
+    
     <br><br>
 
     <h3>Two-Way Binding</h3>

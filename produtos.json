@@ -1,0 +1,44 @@
+{
+    "produtos":[
+        {
+            "id": 1,
+            "nome": "Mouse Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Teclado Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Monitor Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Notebook Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Cadeira Microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        }
+    ]
+}
