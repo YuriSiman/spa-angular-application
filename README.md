@@ -1,67 +1,122 @@
-<h1 align="center">SPA Angular Application - TypeScript</h1>
+<div id="top"></div>
+
+<br/>
+<div align="center">
+    <img src="./readme-img/typescript-original.svg" alt="Logo" width="100" height="100" />
+    <img src="./readme-img/angularjs-original.svg" alt="Logo" width="100" height="100" />
+    <h1 align="center">SPA Angular Application</h1>
+    <p align="center">Aplicação Web SPA com Type Script</p>
+</div>
+
+<br/>
+
+<div align="center">
+    <a href="https://github.com/YuriSiman/spa-angular-application/blob/master/LICENSE" target="_blank">
+      <img alt="LICENSE" src="https://img.shields.io/badge/license-mit-%23A6CE39?style=for-the-badge&logo=github" />
+    </a>
+    <a href="https://github.com/YuriSiman" target="_blank">
+      <img alt="GitHub" src="https://img.shields.io/badge/github-perfil-%237159c1?style=for-the-badge&logo=github" />
+    </a>
+    <a href="https://yurisiman.com.br" target="_blank">
+      <img alt="Site" src="https://img.shields.io/badge/site-yurisiman-E0A80D?style=for-the-badge&logo=Purism" />
+    </a>
+    <a href="https://www.linkedin.com/in/yurisiman/" target="_blank">
+      <img alt="Linkedin" src="https://img.shields.io/badge/linkedin-social-0A66C2?style=for-the-badge&logo=LinkedIn" />
+    </a>
+    <a href="mailto:contato@yurisiman.com.br" target="_blank">
+      <img alt="Gmail" src="https://img.shields.io/badge/email-contato-EA4335?style=for-the-badge&logo=Gmail" />
+    </a>
+</div>
+
+<br/>
+
+## :clipboard: Sobre o Projeto
+
+O objetivo deste projeto é documentar o processo inicial da criação de uma aplicação SPA em Angular. Constam os principais comandos para preparar o ambiente e criar o projeto, assim como conceitos iniciais sobre o funcionamento de uma aplicação SPA em Angular, tendo o TypeScript como linguagem utilizada para o desenvolvimento.  :computer::coffee:
 
 ---
 
-### :dart: Objetivo
+## :pencil: Pré-requisitos
 
-Tenho como objetivo documentar o passo a passo do processo de criar uma aplicação SPA em Angular com TypeScript, para que este projeto seja uma referência a estudos e criação de aplicações.
+1. Se você não possui o npm e node.js instalado, acesse [aqui](https://nodejs.org/en/) e instale a versão mais recente
+2. Instalando o [Angular CLI](https://angular.io/cli)
 
-### Clone
+   ```sh
+   npm install -g @angular/cli
+   ```
 
-Clone este repositório em sua máquina local usando:
+3. Clone este repositório em sua máquina local
 
-```
-git clone https://github.com/YuriSiman/spa-angular-application.git
-```
+   ```sh
+   git clone https://github.com/YuriSiman/spa-angular-application.git
+   ```
+---
+
+## :dart: Tópicos
+
+<details>
+  <summary>Comandos Iniciais</summary>
+  <ul>
+    <li><a href="#npm">npm</a></li>
+    <li><a href="#ng">ng</a></li>
+  </ul>
+</details>
 
 ---
 
-## Modelo Tradicional (server-side)
+### Modelo Tradicional (server-side)  
 
-<img src="./readme-images/server-side.png" />
+<img src="./readme-img/server-side.png" />
 
-## Modelo Single Page Application (SPA)
+<br/>
 
-<img src="./readme-images/spa.png" />
+### Modelo Sigle Page Application (SPA)  
 
-## Primeiros Passos
+<img src="./readme-img/spa.png" />
 
-- Instalar o npm e [node.js](https://nodejs.org/en/)
-- Verificando a versão do node.js e do npm:
+## :rocket: Vamos Começar
 
-```
-node -v
+### Comandos Iniciais
 
-npm -v
-```
+<div id="npm"></div>
 
-- Atualizando o npm para a sua última versão:
+### npm    
 
-```
+Atualizando o npm para a sua última versão
+
+```sh
 npm install npm@latest -g
 ```
 
-- Atualizando o npm para uma versão específica (7.14.0 por exemplo):
+Atualizando o npm para uma versão específica (7.14.0 por exemplo)
 
-```
-npm install -g npm@7.14.0 
+```sh
+npm install -g npm@7.14.0
 ```
 
-- Instalando o [Angular CLI](https://angular.io/cli)  
+Instalando o Angular CLI
 
-```
+```sh
 npm install -g @angular/cli
 ```
 
-- Criando um projeto Angular
+<p align="right"><a href="#top">Início ↑</a></p>
 
-```
+---
+
+<div id="ng"></div>
+
+### ng  
+
+Criando um projeto Angular
+
+```sh
 ng new Nome-Projeto
 ```
 
-- Criando um component
+Criando um component
 
-```
+```sh
 ng generate component Nome-Component
 
 ou
@@ -69,17 +124,19 @@ ou
 ng g c Nome-Component
 ```
 
+<p align="right"><a href="#top">Início ↑</a></p>
+
 ---
 
-## :rocket: Criando a Aplicação
+## :vertical_traffic_light: Status do Projeto
 
-
+:construction: Projeto em construção :construction:
 
 ---
 
 ## :thinking: Contribuindo
 
-> Para começar...
+> Passo a passo de como contribuir...
 
 ### Passo 1
 
@@ -99,7 +156,7 @@ ng g c Nome-Component
 
 ### Passo 5
 
-* :pushpin: Dê um push usando `git push origin minha-feature`
+* :pushpin: Dê um push usando `git push -u origin minha-feature`
 
 ### Passo 6
 
@@ -118,15 +175,16 @@ Depois que seu pull request for mesclado, você pode excluir sua feature branch
 * Me chame pelo [Linkedin](https://www.linkedin.com/in/yurisiman/)  
 * Me mande um e-mail [contato@yurisiman.com.br](mailto:contato@yurisiman.com.br)  
 
-[![Github](https://img.shields.io/badge/github-profile-%237159c1?style=for-the-badge&logo=github)](https://github.com/YuriSiman)  
-[![Curriculum](https://img.shields.io/badge/site-curriculum-%23563D7C?style=for-the-badge&logo=bootstrap)](https://yurisiman.com.br)  
-
 ---
 
 ## :pencil: Licença
 
-[![License](https://img.shields.io/badge/license-mit-%23A6CE39?style=for-the-badge&logo=github)](https://github.com/YuriSiman/spa-angular-application/blob/master/LICENSE)   
+<a href="https://github.com/YuriSiman/spa-angular-application/blob/master/LICENSE" target="_blank">
+  <img alt="LICENSE" src="https://img.shields.io/badge/license-mit-%23A6CE39?style=for-the-badge&logo=github" />
+</a>
 
----
+##
 
-Code your life...
+Code your life :octocat:
+
+<p align="right"><a href="#top">Início ↑</a></p>
